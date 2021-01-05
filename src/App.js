@@ -1,11 +1,13 @@
-import AllViews from './Views/AllViews';
+import React from 'react';
 import './App.css';
+import NavBar from './Componentes/NavBar.js';
 
 function App() {
   return (
     <div className="App">
       
-        <AllViews />
+        <NavBar />
+        
         <p>
           Winner Team!
         </p>

@@ -1,19 +1,21 @@
 import React from "react";
+import './NavBar.css';
+
 const NavBar = () => {
     return (
         <div>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Gana</a>
+            <ul className="nav">
+                <li className="nav-item">
+                    <a className="nav-link active" href="#">Gana</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#"></a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                    
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">?</a>
+                <li className="nav-item">
+                <a className="nav-link" href="#">?</a>
                 </li>
             </ul>
 
