@@ -1,0 +1,8 @@
+.bottomBar{
+    background-color: #FBFBFB;
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #D8D8D8;
+}

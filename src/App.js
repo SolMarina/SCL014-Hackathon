@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import BottomBar from './Components/BottomBar';
+import NavBar from './Components/NavBar.js';
+import GanaView from './Views/GanaView';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+        <NavBar />
+        <GanaView />
         <p>
           Winner Team!
         </p>
@@ -17,7 +21,12 @@ function App() {
         >
           Too MACH.
         </a>
-      </header>
+        <h1>Hola</h1>
+        <h2>Hola</h2>
+        <h3>Hola</h3>
+        <h4>Hola</h4>
+        
+      <BottomBar />
     </div>
   );
 }
