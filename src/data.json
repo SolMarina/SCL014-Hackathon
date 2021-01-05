@@ -1,0 +1,90 @@
+[
+    {
+        "nivel": "1",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609843206/samples/ecommerce/ready-for-playstation-5_ublypj.jpg",
+        "nombreEmpresa":"xbox",
+        "logo": "",
+        "descuento":"10%"
+    },
+    {
+        "nivel": "1",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609843206/samples/ecommerce/hamburguesa_vegana_mcdonalds-680x454_brw8kz.jpg",
+        "nombreEmpresa":"mcDonald",
+        "logo": "",
+        "descuento":"15%"
+    },
+    
+    {
+        "nivel": "1",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609843206/samples/ecommerce/tenis-para-correr-add-1-770x513_i1tcda.jpg",
+        "nombreEmpresa":"adidas",
+        "logo": "",
+        "descuento":"20%"
+
+    },
+    {
+        
+        "nivel": "2",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609844829/samples/ecommerce/conductor-cabify_fqvteq.jpg",
+        "nombreEmpresa":"cabify",
+        "logo": "",
+        "descuento":"25%"
+
+    },
+    {
+        
+        "nivel": "2",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609844829/samples/ecommerce/housebar_l7yzzp.jpg",
+        "nombreEmpresa":"housebar",
+        "logo": "",
+        "descuento":"30%"
+
+    },
+    {
+        
+        "nivel": "2",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609844829/samples/ecommerce/LIPPI_3_z2byfv.jpg",
+        "nombreEmpresa":"lippi",
+        "logo": "",
+        "descuento":"35%"
+
+    },
+    {
+        
+        "nivel": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609846078/samples/ecommerce/virgin_up1kar.jpg",
+        "nombreEmpresa":"virgin",
+        "logo": "",
+        "descuento":"40%"
+
+    },
+    {
+        
+        "nivel": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609846077/samples/ecommerce/coderhouse-1_oujedf.jpg",
+        "nombreEmpresa":"coderhouse",
+        "logo": "",
+        "descuento":"45%"
+
+    },
+    {
+        
+        "nivel": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609846078/samples/ecommerce/rappi_num0al.jpg",
+        "nombreEmpresa":"rappi",
+        "logo": "",
+        "descuento":"50%"
+
+    },
+    {
+        
+        "nivel": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609846077/samples/ecommerce/af059c_f8ff2ed3af9c4cca94e8ca5a95d9fdcf_mv2_feukot.jpg",
+        "nombreEmpresa":"medismart",
+        "logo": "",
+        "descuento":"55%"
+
+    }
+
+    
+]
