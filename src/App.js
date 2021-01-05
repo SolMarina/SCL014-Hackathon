@@ -1,11 +1,15 @@
-import AllViews from './Views/AllViews';
+import React from 'react';
 import './App.css';
+import BottomBar from './Components/BottomBar';
+import NavBar from './Components/NavBar.js';
+import GanaView from './Views/GanaView';
 
 function App() {
   return (
     <div className="App">
       
-        <AllViews />
+        <NavBar />
+        <GanaView />
         <p>
           Winner Team!
         </p>
@@ -17,7 +21,12 @@ function App() {
         >
           Too MACH.
         </a>
-      
+        <h1>Hola</h1>
+        <h2>Hola</h2>
+        <h3>Hola</h3>
+        <h4>Hola</h4>
+        
+      <BottomBar />
     </div>
   );
 }
