@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import BottomBar from './Componentes/BottomBar';
-import NavBar from './Componentes/NavBar.js';
+import BottomBar from './Components/BottomBar';
+import NavBar from './Components/NavBar.js';
+import GanaView from './Views/GanaView';
 
 function App() {
   return (
     <div className="App">
       
         <NavBar />
-        
-
+        <GanaView />
         <p>
           Winner Team!
         </p>
@@ -25,19 +25,7 @@ function App() {
         <h2>Hola</h2>
         <h3>Hola</h3>
         <h4>Hola</h4>
-        <p>HTML5 es el nuevo lenguaje de Internet, sin embargo hay 
-          desarrolladores web que siguen usando lenguajes de hipertexto 
-          anticuados, como HTML 4.01 o XHTML, que precisan de numerosos 
-          plugins externos que ponen en peligro tanto la compatibilidad 
-          como la seguridad de las páginas web. Al contrario, HTML5 hace 
-          posible la directa integración de elementos multimed</p>
-          <p>HTML5 es el nuevo lenguaje de Internet, sin embargo hay 
-          desarrolladores web que siguen usando lenguajes de hipertexto 
-          anticuados, como HTML 4.01 o XHTML, que precisan de numerosos 
-          plugins externos que ponen en peligro tanto la compatibilidad 
-          como la seguridad de las páginas web. Al contrario, HTML5 hace 
-          posible la directa integración de elementos multimed</p>
-
+        
       <BottomBar />
     </div>
   );

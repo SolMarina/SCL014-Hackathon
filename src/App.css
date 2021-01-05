@@ -2,45 +2,42 @@
   text-align: start;
   width: 100%;
   margin: 0;
+  margin-bottom: 50px;
+  /* margin-top: 50px; */
   box-sizing: border-box;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-color: #FBFBFB;
 }
 
 h1 {
-  font-size: 96px;
   font-family: 'Nunito';
-  letter-spacing: 20px;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 33px;
   color: #333333;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 300;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 18px !important;
   color: #333333;
-  font-family: 'Nunito';
-  letter-spacing: 8px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 16px !important;
   color: #333333;
 }
 
 h4 {
-  font-size: 20px;
+  font-weight: normal;
+  font-size: 12px !important;
   color: #333333;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 300;
 }
 
 p {
-  font-size: 18px;
+  font-size: 12px;
   color: #333333;
   font-weight: 300;
   margin-top: 30px;
