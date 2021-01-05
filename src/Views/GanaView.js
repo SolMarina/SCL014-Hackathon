@@ -8,9 +8,13 @@ import './GanaView.css';
 const GanaView = () => {
     return (
         <div className='ganaViewContainer'>
+            {/* Sol */}
             <ProgressBar />
+            {/* Marce */}
             <LevelUpOption />
+            {/* Mandy */}
             <Roulette />
+            {/* Rose */}
             <BenefictsSection />
         </div>
     );
