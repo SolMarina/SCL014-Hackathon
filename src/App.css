@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  text-align: start;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #FBFBFB;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 96px;
+  font-family: 'Nunito';
+  letter-spacing: 20px;
+  font-weight: 400;
+  color: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #333333;
+  font-family: 'Nunito';
+  letter-spacing: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #9b55ff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-size: 30px;
+  color: #333333;
 }
 
-.App-link {
-  color: #00EDDF;
+h4 {
+  font-size: 20px;
+  color: #333333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 25px;
+}
+
+ul {
+  margin-top: 0!important;
+  margin-bottom: 0 !important;
 }
