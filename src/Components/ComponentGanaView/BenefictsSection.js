@@ -20,6 +20,7 @@ const BenefictsSection = () => {
         <div className='benefict-container'>
 
             <h1>Beneficios</h1>
+        
 
             { arrBenefit.map( ( benefit, index ) => (
 
@@ -48,11 +49,9 @@ const BenefictsSection = () => {
     </div>
   </form>
 </div>
-
-
-        
-
-        </section>
+      </div>
+     
     );
 };
+
 export default BenefictsSection;
