@@ -52,7 +52,7 @@
         
         "level": "3",
         "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859051/samples/ecommerce/virgin_fq6ela.jpg",
-        "nombreEmpresa":"virgin",
+        "companyName":"virgin",
         "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609857202/samples/ecommerce/1200px-Virgin-logo.svg_swh5f0.png",
         "discount":"40%"
 
@@ -61,7 +61,7 @@
    "CoderHouse": {
         "level": "3",
         "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859214/samples/ecommerce/coderhouse-1_fhgyki.jpg",
-        "nombreEmpresa": "coderHouse",
+        "companyName": "coderHouse",
         "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609859214/samples/ecommerce/coderhouse-logo-black_gnpjjk.png",
         "discount":"45%"
 
@@ -71,7 +71,7 @@
         
         "level": "3",
         "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859731/samples/ecommerce/rappi-pit-stops_ozeovs.jpg",
-        "nombreEmpresa":"rappi",
+        "companyName":"rappi",
         "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609859731/samples/ecommerce/Rappi_backgr_logo_bny1m5.png",
         "discount":"50%"
     },
@@ -80,11 +80,11 @@
         
         "level": "3",
         "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859910/samples/ecommerce/foto-medismart02-lrg_nboqvg.jpg",
-        "nombreEmpresa":"medismart",
+        "companyName":"medismart",
         "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609859910/samples/ecommerce/Logo-MediSmart-Curvas-RGB_gubfea.png",
         "discount":"55%"
 
-    },
+    }
 
     
 }

@@ -2,26 +2,57 @@ import React from "react";
 import './BenefictsSection.css';
 import dataBenefits from '../../dataBenefits.json'; 
 
+
 const BenefictsSection = () => {
 
 
-    return (
-        <div>
-            <h1>Beneficios</h1>
-            <h3>Nivel 1</h3>
-            <div>
-              
-            </div>
-            <h3>Nivel 2</h3>
-            <div>
-            
-            </div>
-            <h3>Nivel 3</h3>
-            <div>
-          
-            </div>
-        </div>
+    let arrBenefit = [];
+    const totalBenefit = 3;
 
+    for (let index = 0; index < totalBenefit; index++) {
+        arrBenefit.push(Object.values(dataBenefits).filter( benefit => benefit.level === `${index + 1}`));
+    }
+
+    console.log("arrBenefit", arrBenefit);
+
+    return (
+
+        <section className="beneficios">
+
+            <h1>Beneficios</h1>
+
+            { arrBenefit.map( ( benefit, index ) => (
+
+                <article 
+                    key={index} 
+                    className={`level level-${index + 1}`}
+                >
+                    <h3>Nivel - {index + 1}</h3>
+                    
+                    {benefit.map((item, index) => (
+                        <div key={index}>
+                            {item.companyName}
+                            <span><img src = {item.imagUrl} alt=""/></span>
+                            <a href="#"><img src={item.logo} alt=""/></a>
+                            <div>{item.discount}</div>
+                        </div>
+                    ))}
+                
+                </article>
+
+            )) }  
+            <div className="demo">
+  <form className="form-search">
+    <div className="input">
+      <input className="form-control form-text" placeholder="Tus Beneficios"  />
+    </div>
+  </form>
+</div>
+
+
+        
+
+        </section>
     );
 };
 export default BenefictsSection;
