@@ -7,6 +7,9 @@ const Ruleta = (props) => (
     <div>
         <h1 align="center" className="ruleta-puntos">Puntos: {props.total_points}</h1>
         <p align="center">
+            <button id="btnAnimar" disabled={props.animatedRuleta} onClick={props.animarEvent} className="btn btn-warning btn-orange btn-lg">GIRA LA RULETA</button>
+        </p>
+        <p align="center">
             <img
                 id="img-ruleta"
                 src={ruleta}
@@ -17,9 +20,7 @@ const Ruleta = (props) => (
                 ref={props.ruleta}
             />
         </p>
-        <p align="center">
-            <button id="btnAnimar" disabled={props.animatedRuleta} onClick={props.animarEvent} className="btn btn-warning btn-orange btn-lg">GIRA LA RULETA</button>
-        </p>
+        
     </div>
 
 )
