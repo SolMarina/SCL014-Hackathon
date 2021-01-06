@@ -1,0 +1,42 @@
+.roulette-container {
+    box-sizing: border-box;
+}
+
+.calendarBox {
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* background-color: yellow; */
+}
+
+.calendarDayBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-input:checked {
+    background-color: red;
+}
+
+.rouletteBox {
+    height: 225px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.row>* {
+    padding: 0 !important;
+}
+
+.calendar-container {
+    background-color: #FFFFFF;
+    border: solid 1px #C4C4C4;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}

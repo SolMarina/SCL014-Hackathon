@@ -10,11 +10,11 @@ const GanaView = () => {
         <div className='ganaViewContainer'>
             {/* Sol */}
             <ProgressBar />
-            {/* Marce */}
+             {/* Marce */}
             <LevelUpOption />
-            {/* Mandy */}
+             {/* Mandy */}
             <Roulette />
-            {/* Rose */}
+             {/* Rose */}
             <BenefictsSection />
         </div>
     );
