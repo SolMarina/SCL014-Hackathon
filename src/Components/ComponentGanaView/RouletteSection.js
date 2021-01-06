@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-// import alert from 'sweetalert'
-import Ruleta from './Ruleta'
-import Premios from './Premios'
+import React, { Component } from 'react';
+import Swal from 'sweetalert2';
+import Ruleta from './Ruleta';
+import Premios from './Premios';
 import './RouletteSection.css';
 import audiocoins from '../../Assets/audio/coins.m4a';
 // import './index.css';
@@ -99,13 +99,13 @@ class RouletteSection extends Component {
         }
 
         if (this.points_data === -1) {
-            alert("Felicidades", "Ha ganado un premio!!!", "success");
+            Swal.fire("Felicidades", "Ha ganado un premio!!!", "success");
         }
         else if (this.points_data > 0) {
-            alert("Ganó", "Ha ganado " + this.points_data + " puntos", "success");
+            Swal.fire("Ganó", "Ha ganado " + this.points_data + " puntos", "success");
         }
         else {
-            alert("Perdiste", "Inténtelo nuevamente... :( ", "warning");
+            Swal.fire("Perdiste", "Inténtelo nuevamente... :( ", "warning");
         }
 
     }

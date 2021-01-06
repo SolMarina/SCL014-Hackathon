@@ -45,6 +45,16 @@
 .ruleta-box-violeta h2,h3{
 color: white;
 }
+.swal2-popup {
+    height: 280px;
+    max-height: 350px;
+    font-family: 'Nunito';
+}
+.swal2-styled.swal2-confirm {    
+    background-color: #6200EE;
+    font-family: 'Nunito';
+}
+
 @-webkit-keyframes infinite-spinning {
     0% {
         -webkit-transform: rotate(0deg);
