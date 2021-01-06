@@ -55,3 +55,7 @@ a:hover {
   color: #6200EE !important;  
   font-weight: 800 !important;
 }
+input[type="checkbox"] {
+  
+  background-color: red !important;;
+}

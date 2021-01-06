@@ -1,24 +1,33 @@
-.barProgress{
-display: flex ;
-flex-flow: column;
+.barProgress {
+    display: flex;
+    flex-flow: column;
+}
 
-}
-.number1{
-display: flex;
-border-radius: 30px;
-width: 18px;
-background-color:#6200EE;
-justify-content: center;
-color: white;
-}
-.number2{
+.number1 {
     display: flex;
     border-radius: 30px;
-    width: 18px;
-    background-color:#999999;
+    width: 24px;
+    background-color: #6200EE;
     justify-content: center;
     color: white;
-    }
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.number2 {
+    display: flex;
+    border-radius: 30px;
+    width: 24px;
+    background-color: #999999;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    right: 15px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
 
 .progress-container {
     box-sizing: border-box;
@@ -33,12 +42,9 @@ color: white;
     border-radius: 20px !important;
 }
 
-
 .progress-bar0 {
     background-color: #9B55FF;
-
     border-radius: 20px;
-
 }
 
 .avance {
@@ -47,8 +53,6 @@ color: white;
     justify-content: center;
 }
 
-
 .progress2 {
     margin-left: 80%;
-
 }

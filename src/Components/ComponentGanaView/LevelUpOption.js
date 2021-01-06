@@ -8,10 +8,15 @@ const LevelUpOption = () => {
     return (
         <div>
             <div className="levelUp">
-
-                <h1>Sube de Nivel</h1>
-                <h3>Hoy te recomendamos:</h3>
-
+                <div className="todayRecomend" >
+                    <div>
+                        <h1>Sube de Nivel</h1>
+                        <h4>Hoy te recomendamos:</h4>
+                    </div>
+                    <div className="icons">
+                        <img className="refreshImg" src={refresh}></img>
+                    </div>
+                </div>
 
                 <div className="referaFriend">
                     <div className="icons">
