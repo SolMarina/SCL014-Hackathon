@@ -51,3 +51,7 @@ ul {
   margin-top: 0!important;
   margin-bottom: 0 !important;
 }
+a:hover {
+  color: #6200EE !important;  
+  font-weight: 800 !important;
+}
