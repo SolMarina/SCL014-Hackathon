@@ -56,9 +56,10 @@
     max-height: 350px;
     font-family: 'Nunito';
     border-radius: 10px;
-    background-image: url('../../Assets/img/fondo.png');
+    background-image: url('../../Assets/img/fondo2.png');
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 98%;
 }
 
 .swal2-styled.swal2-confirm {
