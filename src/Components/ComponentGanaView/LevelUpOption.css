@@ -1,14 +1,33 @@
+.levelUp1{
+
+    padding: 15px 15px 0px 15px;
+    
+}
+.todayRecomend{
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+
+}
+
+
 .levelUp{
 display: flex;
 flex-flow: column;
-background-color: #f6f6f6;
-border-radius: 30px;
+background-color: #ffffff;
+border-radius: 15px;
+/* font-family: 'Nunito'; */
+/* padding: 15px 15px 0px 15px; */
+/* border:#c4c4c4 1px solid; */
+
+
 }
 .referaFriend{
 display: flex;
 flex-flow: row;
 align-content: center;
 justify-content: space-between;
+font-family: 'Nunito';
 }
 
 .icons{
@@ -19,6 +38,7 @@ width: 24px;
     flex-flow: row;
     align-content: center;
     justify-content: space-between;
+    font-family: 'Nunito';
 
 }
 

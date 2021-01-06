@@ -11,7 +11,7 @@ const Ruleta = (props) => (
         <p align="center">
             <button id="btnAnimar" disabled={props.animatedRuleta} onClick={props.animarEvent} className="btn btn-warning btn-orange btn-lg">¡Juega!</button>
         </p>
-        
+       
         <p align="center">
             <img
                 id="img-ruleta"
