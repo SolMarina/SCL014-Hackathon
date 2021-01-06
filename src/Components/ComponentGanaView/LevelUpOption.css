@@ -1,45 +1,44 @@
-.levelUp1{
 
-    padding: 15px 15px 0px 15px;
-    
-}
-.todayRecomend{
-display: flex;
-flex-flow: row;
-justify-content: space-between;
-
-}
-
-
-.levelUp{
-display: flex;
-flex-flow: column;
-background-color: #ffffff;
-border-radius: 15px;
-/* font-family: 'Nunito'; */
-/* padding: 15px 15px 0px 15px; */
-/* border:#c4c4c4 1px solid; */
-
+.levelUp {
+    display: flex;
+    flex-flow: column;
+    background-color: #FFFFFF;
+    border: solid 1px #C4C4C4;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    min-height: 225px;
 
 }
-.referaFriend{
-display: flex;
-flex-flow: row;
-align-content: center;
-justify-content: space-between;
-font-family: 'Nunito';
+
+.levelUp h4 {
+    color: #999999;
 }
 
-.icons{
-width: 24px;
-}
-.activeNotifications{
+.referaFriend {
     display: flex;
     flex-flow: row;
     align-content: center;
     justify-content: space-between;
-    font-family: 'Nunito';
 
+    margin-top: 10px;
 }
 
+.icons {
+    width: 24px;
+}
 
+.activeNotifications {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.text {
+    min-width: 200px;
+}
+
+.text h3 {
+    font-weight: 700;
+}

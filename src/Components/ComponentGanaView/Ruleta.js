@@ -6,8 +6,8 @@ const Ruleta = (props) => (
 
     <div className='ruleta-box-violeta'>
         {/* <h1 align="center" className="ruleta-puntos">Puntos: {props.total_points}</h1> */}
-        <h2 align="start">¡Prueba tu suerte del día!</h2>
-        <h3 align="start">Gira la Ruleta MACH y gana puntos o beneficios pensados para tí.</h3>
+        <h1 align="start">¡Gira la Ruleta MACH!</h1>
+        <h4 align="start">Solo ingresa a tu app y podrás jugar una vez al día para ganar puntos o beneficios para tí</h4>
         <p align="center">
             <button id="btnAnimar" disabled={props.animatedRuleta} onClick={props.animarEvent} className="btn btn-warning btn-orange btn-lg">¡Juega!</button>
         </p>

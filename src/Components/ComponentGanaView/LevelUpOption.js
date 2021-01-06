@@ -8,22 +8,18 @@ const LevelUpOption = () => {
     return (
         <div>
             <div className="levelUp">
-                <div className="todayRecomend" >
-                    <div>
-                        <h1>Sube de Nivel</h1>
-                        <h4>Hoy te recomendamos:</h4>
-                    </div>
-                    <div className="icons">
-                        <img className="inviteImg" src={refresh}></img>
-                    </div>
-                </div>
+
+                <h1>Sube de Nivel</h1>
+                <h3>Hoy te recomendamos:</h3>
+
+
                 <div className="referaFriend">
                     <div className="icons">
                         <img className="inviteImg" src={invite}></img>
                     </div>
                     <div className="text">
-                        <h1>Refiere a un Amigo</h1>
-                        <h4>Gana 5 puntos mach</h4>
+                        <h3>Refiere a un Amigo</h3>
+                        <h4>Gana 5 puntos MACH</h4>
                     </div>
                     <div className="icons">
                         <img className="imgArrow" src={arrow}></img>
@@ -35,8 +31,8 @@ const LevelUpOption = () => {
                         <img className="imgGift" src={calendar}></img>
                     </div>
                     <div className="text" >
-                        <h1>Activa Notificaciones</h1>
-                        <h4>Gana 5 puntos mach</h4>
+                        <h3>Activa Notificaciones</h3>
+                        <h4>Gana 5 puntos MACH</h4>
                     </div>
                     <div className="icons">
                         <img className="imgIcons" src={arrow}></img>

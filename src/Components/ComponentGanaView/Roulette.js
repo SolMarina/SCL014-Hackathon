@@ -17,22 +17,26 @@ const Roulette = () => {
     }
 
     return (
-        <div>
-            <h2>Usa MACH todos los días</h2>
-            <h4>Al final de la semana te enviaremos un premio sorpresa</h4>
+        <div className='roulette-container'>
             <div className='rouletteBox'>
                 <RouletteSection />
             </div>
 
-            <div className='calendarBox'>
-                {dayWeekSection.map((day, index) => {
-                    return (
-                        <div key={index} className='calendarDayBox'>
-                            <label for={index}>{day}</label>
-                            <input className='checkbox-input' type='checkbox' id={index} onclick={() => updateCheckBox()} />
-                        </div>
-                    )
-                })}
+            <div className='calendar-container'>
+                <h1>Usa MACH toda la semana</h1>
+                <h3>Gana un dscto. sorpresa para el finde</h3>
+
+                <div className='calendarBox'>
+                    {dayWeekSection.map((day, index) => {
+                        return (
+                            <div key={index} className='calendarDayBox'>
+                                <label for={index}>{day}</label>
+                                <input className='checkbox-input' type='checkbox' id={index} onclick={() => updateCheckBox()} />
+                            </div>
+                        )
+                    })}
+                </div>
+
             </div>
 
 
