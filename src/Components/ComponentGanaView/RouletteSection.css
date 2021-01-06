@@ -1,0 +1,101 @@
+#img-ruleta {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.img-ruleta {
+    -webkit-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease;
+    overflow-x: hidden
+}
+
+.btn-warning.btn-orange, .btn-warning.btn-orange:focus, .btn-warning.btn-orange:hover {
+    color: #333333;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    Offset: 3px, 6px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 22px;
+    height: 40px;
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    min-width: 105px;
+    margin-bottom: -130px;
+}
+
+.ruleta-puntos {
+    color: #fff;
+    text-shadow: 1px 1px 1px #f24;
+    text-transform: uppercase
+}
+
+.ruleta-box-violeta {
+    background-image: url('../../Assets/img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 15px 0px 15px;
+    border-radius: 10px;
+    height: 225px;
+}
+
+.ruleta-box-violeta h1 {
+    color: white;
+}
+
+.ruleta-box-violeta h4 {
+    color: white;
+}
+
+.swal2-popup {
+    height: 225px;
+    max-height: 350px;
+    font-family: 'Nunito';
+    border-radius: 10px;
+    background-image: url('../../Assets/img/fondo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 95%;
+}
+
+.swal2-styled.swal2-confirm {
+    color: #333333;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;    
+    Offset: 3px, 6px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 22px;
+    height: 40px;
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    min-width: 105px;
+    font-family: 'Nunito';
+}
+
+@-webkit-keyframes infinite-spinning {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1100deg);
+        transform: rotate(1100deg)
+    }
+}
+
+@keyframes infinite-spinning {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1100deg);
+        transform: rotate(1100deg)
+    }
+}
+
+/*# sourceMappingURL=main.748aa096.css.map*/

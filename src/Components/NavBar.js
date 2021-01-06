@@ -1,5 +1,6 @@
 import React from "react";
 import './NavBar.css';
+import iconHelp from '../Assets/Icons/icon-help.png';
 
 const NavBar = () => {
     return (
@@ -8,15 +9,9 @@ const NavBar = () => {
                 <li className="nav-item">
                     <a className="nav-link active" href="#">Gana</a>
                 </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#"></a>
-                </li>
-                <li className="nav-item">
-                   
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" href="#">?</a>
-                </li>
+                <a className="nav-link active" href="https://ayuda.somosmach.com/hc/es">
+                    <img className="helpImg" src={iconHelp}></img>
+                </a>
             </ul>
 
         </div>

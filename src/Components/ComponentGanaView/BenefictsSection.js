@@ -17,7 +17,7 @@ const BenefictsSection = () => {
 
     return (
 
-        <section className="beneficios">
+        <div className='benefict-container'>
 
             <h1>Beneficios</h1>
 
