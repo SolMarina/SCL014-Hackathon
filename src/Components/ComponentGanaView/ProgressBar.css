@@ -1,24 +1,58 @@
-.barProgrees{
-display: flex ;
-flex-flow: column;
-
-
+.barProgress {
+    display: flex;
+    flex-flow: column;
 }
 
+.number1 {
+    display: flex;
+    border-radius: 30px;
+    width: 24px;
+    background-color: #6200EE;
+    justify-content: center;
+    color: white;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
 
+.number2 {
+    display: flex;
+    border-radius: 30px;
+    width: 24px;
+    background-color: #999999;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    right: 15px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
 
-.progress-bar0{
+.progress-container {
+    box-sizing: border-box;
+}
+
+.progress-container h4 {
+    color: #999999;
+}
+
+.progress {
+    height: 24px !important;
+    border-radius: 20px !important;
+}
+
+.progress-bar0 {
     background-color: #9B55FF;
-    border-radius: 10px;
-   
+    border-radius: 20px;
 }
 
-.avance{
-    display: flex ;
+.avance {
+    display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 }
-.progress2{
-margin-left: 80%;
 
+.progress2 {
+    margin-left: 80%;
 }

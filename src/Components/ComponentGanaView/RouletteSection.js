@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
-// import alert from 'sweetalert'
-import Ruleta from './Ruleta'
-import Premios from './Premios'
+import React, { Component } from 'react';
+import Swal from 'sweetalert2';
+import Ruleta from './Ruleta';
+import Premios from './Premios';
 import './RouletteSection.css';
+import audiocoins from '../../Assets/audio/coins.m4a';
 // import './index.css';
 
 class RouletteSection extends Component {
@@ -15,6 +16,7 @@ class RouletteSection extends Component {
             data_ruleta: 0,
             animated_ruleta: false,
         }
+
 
         this.premios = [
             { id: 1, premio: 'Premio 1', precio: '150' },
@@ -44,6 +46,7 @@ class RouletteSection extends Component {
 
     }
 
+
     animarEvent() {
 
         var ruleta_temp = this.rulets_data;
@@ -70,8 +73,8 @@ class RouletteSection extends Component {
             this.setState({
                 data_ruleta: valor_premio,
             })
+            new Audio(audiocoins).play();        
         }, 200);
-
     }
 
     showRuletaResult() {
@@ -95,13 +98,13 @@ class RouletteSection extends Component {
         }
 
         if (this.points_data === -1) {
-            alert("Felicidades", "Ha ganado un premio!!!", "success");
+            Swal.fire("Felicidades", "Ha ganado un premio!");
         }
         else if (this.points_data > 0) {
-            alert("Ganó", "Ha ganado " + this.points_data + " puntos", "success");
+            Swal.fire("¡Ganaste!", "Has ganado " + this.points_data + " puntos "+"¡Sigue subiendo de nivel!");
         }
         else {
-            alert("Perdiste", "Inténtelo nuevamente... :( ", "warning");
+            Swal.fire("¡Vuelve mañana!", "Puedes girar la Ruleta MACH una vez al día para ganar puntos y beneficios.");
         }
 
     }
@@ -125,13 +128,14 @@ class RouletteSection extends Component {
 
     }
 
+
     render() {
 
         return (
             <div id="main">
                 <div className="container">
                     <div className="row">
-                        
+
                         <div className="col-md-6">
                             <Ruleta
                                 total_points={this.state.total_points}
