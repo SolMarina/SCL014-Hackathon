@@ -1,0 +1,16 @@
+.nav {
+    background-color: #6200EE;
+    height: 52px;
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+/* .nav {
+    background-color: #6200EE;
+    height: 52px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */

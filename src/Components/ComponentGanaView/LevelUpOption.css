@@ -1,0 +1,25 @@
+.levelUp{
+display: flex;
+flex-flow: column;
+background-color: #f6f6f6;
+border-radius: 30px;
+}
+.referaFriend{
+display: flex;
+flex-flow: row;
+align-content: center;
+justify-content: space-between;
+}
+
+.icons{
+width: 24px;
+}
+.activeNotifications{
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+

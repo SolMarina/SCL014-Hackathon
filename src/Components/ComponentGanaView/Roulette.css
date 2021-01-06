@@ -1,0 +1,23 @@
+.calendarBox {
+    display: flex;
+    justify-content: space-around;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.calendarDayBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-input:checked {
+    background-color: red;
+}
+
+.rouletteBox {
+    background-color: yellow;
+    height: 200px;
+    overflow: hidden;
+}
