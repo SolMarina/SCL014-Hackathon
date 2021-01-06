@@ -1,0 +1,24 @@
+.barProgrees{
+display: flex ;
+flex-flow: column;
+
+
+}
+
+
+
+.progress-bar0{
+    background-color: #9B55FF;
+    border-radius: 10px;
+   
+}
+
+.avance{
+    display: flex ;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.progress2{
+margin-left: 80%;
+
+}
