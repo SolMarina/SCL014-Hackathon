@@ -13,7 +13,7 @@ const ProgressBar = () => {
                 <div>
                     <div className="progress">
                         <div className="progress-bar0 progress-bar-striped progress-bar-animated" style={{ width: progress + '%' }} role="progressbar" aria-valuenow="1" aria-valuemin="2" aria-valuemax="100">1</div>
-                        <div className="progress2"> 2</div>
+                        
                     </div>
 
                 </div>

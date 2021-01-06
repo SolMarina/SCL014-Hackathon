@@ -1,14 +1,17 @@
 import React from 'react'
-import ruleta from './rueda.png'
-// import './index.css';
+import ruleta from '../../Assets/img/rueda.png'
+import './Roulette.css';
 
 const Ruleta = (props) => (
 
-    <div>
-        <h1 align="center" className="ruleta-puntos">Puntos: {props.total_points}</h1>
+    <div className='ruleta-box-violeta'>
+        {/* <h1 align="center" className="ruleta-puntos">Puntos: {props.total_points}</h1> */}
+        <h2 align="start">¡Prueba tu suerte del día!</h2>
+        <h3 align="start">Gira la Ruleta MACH y gana puntos o beneficios pensados para tí.</h3>
         <p align="center">
-            <button id="btnAnimar" disabled={props.animatedRuleta} onClick={props.animarEvent} className="btn btn-warning btn-orange btn-lg">GIRA LA RULETA</button>
+            <button id="btnAnimar" disabled={props.animatedRuleta} onClick={props.animarEvent} className="btn btn-warning btn-orange btn-lg">¡Juega!</button>
         </p>
+        
         <p align="center">
             <img
                 id="img-ruleta"

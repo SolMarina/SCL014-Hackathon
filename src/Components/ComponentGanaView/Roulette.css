@@ -17,7 +17,7 @@
 }
 
 .rouletteBox {
-    background-color: yellow;
-    height: 200px;
+    /* background-color: yellow; */
+    height: 225px;
     overflow: hidden;
 }
