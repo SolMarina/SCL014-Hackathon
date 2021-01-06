@@ -3,7 +3,7 @@ import './BenefictsSection.css';
 
 const BenefictsSection = () => {
     return (
-        <div>
+        <div className='benefict-container'>
             <h1>Beneficios</h1>
             <h3>Nivel 1</h3>
             <div>

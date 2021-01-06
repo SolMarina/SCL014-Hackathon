@@ -1,24 +1,32 @@
-.barProgrees{
-display: flex ;
-flex-flow: column;
-
-
+.progress-container {
+    box-sizing: border-box;
 }
 
+.progress-container h4 {
+    color: #999999;
+}
 
+.progress {
+    height: 24px !important;
+    border-radius: 20px !important;
+}
 
-.progress-bar0{
+.barProgrees {
+    display: flex;
+    flex-flow: column;
+}
+
+.progress-bar0 {
     background-color: #9B55FF;
-    border-radius: 10px;
-   
+    border-radius: 20px;
 }
 
-.avance{
-    display: flex ;
+.avance {
+    display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 }
-.progress2{
-margin-left: 80%;
 
+.progress2 {
+    margin-left: 80%;
 }
