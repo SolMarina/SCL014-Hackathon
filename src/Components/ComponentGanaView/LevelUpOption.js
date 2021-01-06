@@ -3,13 +3,15 @@ import './LevelUpOption.css';
 import arrow from '../../Assets/Icons/icon-arrow-right.svg'
 import invite from '../../Assets//Icons/icon-invite.svg'
 import calendar from '../../Assets//Icons/icon-calendar.svg'
-
+import refresh from '../../Assets//Icons/icon-refresh.svg'
 const LevelUpOption = () => {
     return (
         <div>
             <div className="levelUp">
+
                 <h1>Sube de Nivel</h1>
                 <h3>Hoy te recomendamos:</h3>
+
 
                 <div className="referaFriend">
                     <div className="icons">
