@@ -68,7 +68,6 @@ class RouletteSection extends Component {
             animated_ruleta: true,
         })
 
-
         setTimeout(() => {
             this.ruleta.current.classList.add('img-ruleta');
             this.setState({
