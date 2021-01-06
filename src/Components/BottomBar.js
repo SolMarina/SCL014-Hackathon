@@ -1,13 +1,15 @@
 import React from "react";
 import './BottomBar.css';
+import iconHelp from '../Assets/Icons/icon-help.png';
 
 const BottomBar = () => {
     return (
         <div>
             <ul className="bottomBar">
-                <li >
-                    <a href="#">Gana</a>
-                </li>
+              
+                    <a className="nav-link active" href="#">
+                        <img className="helpImg" src={iconHelp}></img>
+                    </a>          
 
             </ul>
 

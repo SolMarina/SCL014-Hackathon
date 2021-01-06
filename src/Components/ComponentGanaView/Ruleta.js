@@ -1,5 +1,5 @@
-import React from 'react'
-import ruleta from '../../Assets/img/rueda.png'
+import React from 'react';
+import ruleta from '../../Assets/img/rueda.png';
 import './Roulette.css';
 
 const Ruleta = (props) => (
