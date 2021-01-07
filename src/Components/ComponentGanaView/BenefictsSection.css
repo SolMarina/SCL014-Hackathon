@@ -1,11 +1,35 @@
+.demo {
+  margin-bottom: 16px;
+}
+
+div.input {
+  position: relative;
+}
+
+div.input>img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.form-control.form-text {
+  border: none;
+  padding-left: 0;
+  background-color: transparent;
+}
+
+.form-control.form-text::placeholder {
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+}
+
 .benefict-container {
   box-sizing: border-box;
 }
 
-.benefict-container .beneficios {
-  width: 600px;
-}
-.benefict-container .beneficios > h1 {
+.benefict-container .beneficios>h1 {
   width: 103px;
   height: 30px;
   left: 16px;
@@ -20,24 +44,24 @@
 }
 
 .benefict-container h3 {
-  width: 38px;
-  height: 16px;
-  left: 16px;
-  top: 191px;
-
   font-family: Nunito;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 16px;
-  color: #333333;
+  color: #000000;
+  margin-bottom: 16px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  grid-gap: 13px;
 }
 
-.benefict-container section article > div {
+.benefict-container section article>div {
   position: relative;
 }
 
-.benefict-container div a > img {
+.benefict-container div a>img {
   position: relative;
   width: 60px;
   height: 48px;
@@ -46,7 +70,7 @@
   border-radius: 10px;
 }
 
-.benefict-container div span > img {
+.benefict-container div span>img {
   width: 192px;
   height: 104px;
   left: 16px;
@@ -55,31 +79,72 @@
   border-radius: 10px;
 }
 
-.benefict-container .benefit {
-   position: relative;
-
+.benefict-container .levels-container {
+  display: grid;
+  grid-gap: 16px;
 }
 
-.benefict-container .benefit img {
-    width: 100%;
+.benefict-container .level {
+  overflow-x: auto;
+}
 
+.benefict-container .level .benefits {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.benefict-container .level:nth-child(+n+2) .benefits .benefit {
+  filter: grayscale(1);
+}
+
+.benefict-container .level .benefits::-webkit-scrollbar {
+  display: none;
+}
+
+.benefict-container .benefits {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  grid-gap: 24px;
+}
+
+.benefict-container .benefit {
+  position: relative;
+  height: 104px;
+  width: 192px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.benefict-container .benefit .benefit-background {
+  height: 112px;
+  width: 192px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.benefict-container .benefit .logo-percent {
+  position: absolute;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  padding-left: 8px;
+  padding-top: 9px;
+  background: linear-gradient(73.65deg, #6200EE 11.34%, #ffffff00 61.34%);
 }
 
 .benefict-container .benefit .benefit-logo {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    z-index: 1;
-
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  object-fit: contain;
 }
 
-
-.benefict-container .benefit .benefit-background {
-   
-   
- 
-    height: 170px;
-
- 
- }
-
+.benefict-container .benefit .benefit-company-discount {
+  font-size: 36px;
+  color: #FFFFFF;
+}
