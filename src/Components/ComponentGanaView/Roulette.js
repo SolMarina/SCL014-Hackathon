@@ -4,9 +4,8 @@ import RouletteSection from "./RouletteSection";
 
 const Roulette = (props) => {
     const dayWeekSection = ['L', 'M', 'M', 'J', 'V'];
-    // const [dayWeek, setDayWeek] = useState(dayWeekSection);
-
-    const updateCheckBox = () => {
+ 
+   /*  const updateCheckBox = () => {
         var checkBox = document.getElementById("myCheck");
         var text = document.getElementById("text");
         if (checkBox.checked == true) {
@@ -14,13 +13,13 @@ const Roulette = (props) => {
         } else {
             text.style.display = "none";
         }
-    }
+    } */
 
     return (
         <div className='roulette-container'>
             <div className='rouletteBox'>
-                <RouletteSection 
-                moveProgressBar={props.moveProgressBar}
+                <RouletteSection
+                    moveProgressBar={props.moveProgressBar}
                 />
             </div>
 
@@ -32,8 +31,11 @@ const Roulette = (props) => {
                     {dayWeekSection.map((day, index) => {
                         return (
                             <div key={index} className='calendarDayBox'>
-                                <label for={index}>{day}</label>
-                                <input className='checkbox-input' type='checkbox' id={index} onclick={() => updateCheckBox()} />
+                                <label class="container">{day}
+                                    <input type="checkbox" />
+                                    <span class="checkmark"></span>
+                                </label>
+
                             </div>
                         )
                     })}
