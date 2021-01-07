@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './Roulette.css';
 import RouletteSection from "./RouletteSection";
 
-const Roulette = () => {
+const Roulette = (props) => {
     const dayWeekSection = ['L', 'M', 'M', 'J', 'V'];
     // const [dayWeek, setDayWeek] = useState(dayWeekSection);
 
@@ -19,7 +19,9 @@ const Roulette = () => {
     return (
         <div className='roulette-container'>
             <div className='rouletteBox'>
-                <RouletteSection />
+                <RouletteSection 
+                moveProgressBar={props.moveProgressBar}
+                />
             </div>
 
             <div className='calendar-container'>

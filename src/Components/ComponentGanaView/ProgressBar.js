@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import './ProgressBar.css';
-const ProgressBar = () => {
-    const [progress, setProgress] = useState(25);
+
+const ProgressBar = (props) => {
+    
 
     return (
         <div className='progress-container'>
@@ -11,7 +12,7 @@ const ProgressBar = () => {
 
                 <div>
                     <div className="progress">
-                        <div className="progress-bar0" style={{ width: progress + '%' }} role="progressbar" aria-valuenow="1" aria-valuemin="2" aria-valuemax="100"><div className = "number1">1</div></div>
+                        <div className="progress-bar0" style={{ width: props.progress + '%' }} role="progressbar" aria-valuenow="1" aria-valuemin="2" aria-valuemax="100"><div className = "number1">1</div></div>
                        <div className = "number2">2</div>
                     </div>
 

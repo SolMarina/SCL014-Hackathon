@@ -17,7 +17,6 @@ class RouletteSection extends Component {
             animated_ruleta: false,
         }
 
-
         this.premios = [
             { id: 1, premio: 'Premio 1', precio: '150' },
             { id: 2, premio: 'Premio 2', precio: '200' },
@@ -73,7 +72,7 @@ class RouletteSection extends Component {
             this.setState({
                 data_ruleta: valor_premio,
             })
-            new Audio(audiocoins).play();        
+            new Audio(audiocoins).play();
         }, 200);
     }
 
@@ -97,11 +96,14 @@ class RouletteSection extends Component {
 
         }
 
+
         if (this.points_data === -1) {
+            this.props.moveProgressBar();
             Swal.fire("Felicidades", "Ha ganado un premio!");
         }
         else if (this.points_data > 0) {
-            Swal.fire("¡Ganaste!", "Has ganado " + this.points_data + " puntos "+"¡Sigue subiendo de nivel!");
+            this.props.moveProgressBar();
+            Swal.fire("¡Ganaste!", "Has ganado " + this.points_data + " puntos " + "¡Sigue subiendo de nivel!");
         }
         else {
             Swal.fire("¡Vuelve mañana!", "Puedes girar la Ruleta MACH una vez al día para ganar puntos y beneficios.");
