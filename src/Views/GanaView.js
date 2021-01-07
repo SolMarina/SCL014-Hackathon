@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import BenefictsSection from "../Components/ComponentGanaView/BenefictsSection";
 import LevelUpOption from "../Components/ComponentGanaView/LevelUpOption";
 import ProgressBar from "../Components/ComponentGanaView/ProgressBar";
@@ -6,15 +6,26 @@ import Roulette from "../Components/ComponentGanaView/Roulette";
 import './GanaView.css';
 
 const GanaView = () => {
+
+    const [progress, setProgress] = useState(25);
+
+    const moveProgressBar = () => {
+        setProgress(progress + 10);
+    };
+
     return (
         <div className='ganaViewContainer'>
-            {/* Sol */}
-            <ProgressBar />
-            {/* Marce */}
+
+            <ProgressBar
+                progress={progress}
+            />
+
             <LevelUpOption />
-            {/* Mandy */}
-            <Roulette />
-            {/* Rose */}
+
+            <Roulette
+                moveProgressBar={moveProgressBar}
+            />
+
             <BenefictsSection />
         </div>
     );

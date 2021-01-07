@@ -2,8 +2,8 @@
   text-align: start;
   width: 100%;
   margin: 0;
-  margin-bottom: 50px;
-  /* margin-top: 50px; */
+  margin-bottom: 80px;
+  margin-top: 80px; 
   box-sizing: border-box;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -21,33 +21,41 @@ h1 {
 h2 {
   font-style: normal;
   font-weight: 600 !important;
-  font-size: 18px !important;
+  font-size: 22px !important;
   color: #333333;
 }
 
 h3 {
-  font-size: 16px !important;
+  font-size: 18px !important;
   color: #333333;
 }
 
 h4 {
   font-weight: normal;
-  font-size: 12px !important;
+  font-size: 16px !important;
   color: #333333;
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   color: #333333;
   font-weight: 300;
-  margin-top: 30px;
+ /*  margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  line-height: 25px;
+  line-height: 25px; */
 }
 
 ul {
   margin-top: 0!important;
   margin-bottom: 0 !important;
+}
+a:hover {
+  color: #6200EE !important;  
+  font-weight: 800 !important;
+}
+input[type="checkbox"] {
+  
+  background-color: red !important;;
 }

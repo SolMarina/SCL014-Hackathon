@@ -1,0 +1,90 @@
+{
+ "Xbox": {
+        "level": "1",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609842461/samples/ecommerce/ready-for-playstation-5_twqobj.jpg",
+        "companyName":"xbox",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609857070/samples/ecommerce/169a7ffe-c2c7-463a-a77c-21239c9ac388_ayhutn.jpg",
+        "discount":"10%"
+    },
+"MacDonald": {
+        "level": "1",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609818109/samples/ecommerce/hamburguesa_vegana_mcdonalds-680x454_faopvc.jpg",
+        "companyName":"mcDonald",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609857202/samples/ecommerce/favicon-512_cdz3xx.png",
+        "discount":"15%"
+    },
+    
+ "Adidas":{
+        "level": "1",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609818049/samples/ecommerce/tenis-para-correr-add-1-770x513_xt1bst.jpg",
+        "companyName":"adidas",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609857202/samples/ecommerce/9de8a31dd02f83b8b454e6facaaa8aa0_ur6hjg.jpg",
+        "discount":"20%"
+
+    },
+
+    "Cabify": {
+        "level": "2",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609858615/samples/ecommerce/images_cms-image-000017899_b8fxee.jpg",
+        "companyName":"cabify",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609857201/samples/ecommerce/descarga_1_n7iug6.png",
+        "discount":"25%"
+
+    },
+   "housebar": {
+        "level": "2",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609858751/samples/ecommerce/Korner-19-ok-768x512_gceoxr.jpg",
+        "companyName":"housebar",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609857202/samples/ecommerce/housebar_qlk9ou.png",
+        "discount":"30%"
+
+    },
+   "Lippi": {
+        
+        "level": "2",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609858902/samples/ecommerce/LIPPI_1_uigcxh.jpg",
+        "companyName":"lippi",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609858901/samples/ecommerce/lippi_x3xxr1.jpg",
+        "discount":"35%"
+
+    },
+   "Virgin": {
+        
+        "level": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859051/samples/ecommerce/virgin_fq6ela.jpg",
+        "companyName":"virgin",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609857202/samples/ecommerce/1200px-Virgin-logo.svg_swh5f0.png",
+        "discount":"40%"
+
+    },
+
+   "CoderHouse": {
+        "level": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859214/samples/ecommerce/coderhouse-1_fhgyki.jpg",
+        "companyName": "coderHouse",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609859214/samples/ecommerce/coderhouse-logo-black_gnpjjk.png",
+        "discount":"45%"
+
+    },
+
+   "Rappi": {
+        
+        "level": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859731/samples/ecommerce/rappi-pit-stops_ozeovs.jpg",
+        "companyName":"rappi",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609859731/samples/ecommerce/Rappi_backgr_logo_bny1m5.png",
+        "discount":"50%"
+    },
+
+   "medismart": {
+        
+        "level": "3",
+        "imagUrl":"https://res.cloudinary.com/dgtypqslv/image/upload/v1609859910/samples/ecommerce/foto-medismart02-lrg_nboqvg.jpg",
+        "companyName":"medismart",
+        "logo": "https://res.cloudinary.com/dgtypqslv/image/upload/v1609859910/samples/ecommerce/Logo-MediSmart-Curvas-RGB_gubfea.png",
+        "discount":"55%"
+
+    }
+
+    
+}
