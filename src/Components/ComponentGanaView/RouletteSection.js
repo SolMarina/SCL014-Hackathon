@@ -18,13 +18,13 @@ class RouletteSection extends Component {
         }
 
         this.premios = [
-            { id: 1, premio: 'Premio 1', precio: '150' },
-            { id: 2, premio: 'Premio 2', precio: '200' },
-            { id: 3, premio: 'Premio 3', precio: '500' },
-            { id: 4, premio: 'Premio 4', precio: '1000' }
+            { id: 1, premio: 'Premio 1', precio: '10' },
+            { id: 2, premio: 'Premio 2', precio: '10' },
+            { id: 3, premio: 'Premio 3', precio: '10' },
+            { id: 4, premio: 'Premio 4', precio: '10' }
         ]
 
-        this.premios_list = [100, 200, 0, 500, 50, -1, 0, 150];
+        this.premios_list = [10, 10, 0, 10, 10, -1, 0, 10];
 
         this.points_data = 0;
         this.rulets_data = 0;
